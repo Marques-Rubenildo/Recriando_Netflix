@@ -1,3 +1,42 @@
-body {
-    background-color: rgb(49, 49, 49);
+/*Declarando variáveis no css*/
+:root{
+    --vermelho: #E50914;
+    --Preta: #141414;
+}
+
+/*resetando o css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* adequam os itens de dentro das caixas ao tamanho dela*/
+
+}
+
+body{
+    background: var(--Preta);
+    font-family: 'Times New Roman', Times, Serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*alinha de maneira vertical*/
+    justify-content: space-between; /* alinha horizontalmente os elementos da caixa*/
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
 }
