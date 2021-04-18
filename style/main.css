@@ -2,6 +2,7 @@
 :root{
     --vermelho: #E50914;
     --preta: #141414;
+    --amarelo: #ffc402;
 }
 
 /*resetando o css*/
@@ -28,7 +29,7 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--amarelo);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
@@ -46,7 +47,7 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/resources/capa-g');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/resources/capa-gt3.jpg');
 
     height: 400px;
     background-size: cover;
