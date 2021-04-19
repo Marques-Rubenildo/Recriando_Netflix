@@ -1,0 +1,21 @@
+/*Condicional - Esta regra se aplicará apenas quando o tamanho da tela for menor ou igual a 700 pixels.
+Os elementos serão alinhados em fila, um abaixo do outro.*/
+@media  screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+/*Condicional - Esta regra se aplicará a partir de 1000 pixels, ou seja, quando o tamanho da tela for igual ou maior a 1000 pixels.
+Os elementos serão distribuídos até no máximo 50% da tela.*/
+@media  screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+}

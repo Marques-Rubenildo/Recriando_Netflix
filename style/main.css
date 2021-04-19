@@ -17,7 +17,7 @@
 /*Elementos base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, Serif;
+    font-family: 'Arial', Times, Serif;
 }
 
 header .container{
@@ -100,8 +100,12 @@ header nav a:hover{
     width: 70%;
 }
 
-.box-livro{
+.box-livros{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-livros{
+    margin-top: 5px;
 }
